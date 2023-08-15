@@ -1,0 +1,262 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: "Work Sans", sans-serif;
+    font-size: 1.6rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Oswald", sans-serif;
+}
+
+/*figure {
+    margin: 0;
+}*/
+
+.siteheader {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    /*background-color: orange;*/
+}
+
+.site-title {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-family: "Oswald", sans-serif;
+    font-size: 5rem;
+    font-weight: 200;
+}
+
+.siteheader:after {
+    display: block;
+    margin: 4rem 0;
+    content: "⚍⚌⚍";
+}
+
+.maincontent {
+
+    margin: 0 auto;
+    padding: 0 1rem;
+    max-width: 60rem;
+    /*background-color: purple;*/
+    text-align: start;
+}
+
+.page-header {
+    margin-bottom: 3rem;
+    /*background-color: green;*/
+}
+
+.page-header__heading {
+    margin-top: -1rem;
+    text-align: center;
+}
+
+.page-header:after {
+    margin: 4rem auto;
+    display: block;
+    content: "";
+    border-bottom: 3px solid black;
+    width: 4rem;
+}
+
+.profile {
+    margin-bottom: 4rem;
+    padding-bottom: 4rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto 1fr;
+    gap: 0 3rem;
+    /*background-color: pink;*/
+}
+  
+.profile:after {
+    margin: 0 auto;
+    padding-top: 4rem;
+    display: block;
+    grid-column: span 2;
+    content: "";
+    border-bottom: 3px solid black;
+    width: 4rem;
+}
+
+.profile__image {
+    grid-row: span 2;
+    /*border: solid black 1px;*/
+    text-align: center;
+    padding-top: 2%;
+}
+
+.Services {
+    margin-top: 2rem;
+    margin-bottom: 0;
+    padding-bottom: 2rem;
+    font-size: 2rem;
+    line-height: 1;
+    text-transform: uppercase;
+    border-bottom: 3px solid black;
+    /*background-color: chartreuse;*/
+}
+  
+.freelancer__features {
+    margin: 0;
+    padding: 2rem 0 0 0;
+    list-style-type: none;
+}
+  
+.freelancer__features li {
+    padding: 0.2rem 0;
+    /*background-color: cyan;*/
+}
+
+a:link {
+
+    color: black;
+    text-decoration: none;
+
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:visited {
+
+    color: black;
+    text-decoration: none;
+
+}
+
+/*Subgrid. See https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Subgrid*/
+@supports (grid-template-columns: subgrid) {
+    .freelancer__features {
+      display: grid;
+      grid-template-columns: auto 1fr;
+      gap: 0 1rem;
+    }
+  
+    .freelancer__features li {
+      display: grid;
+      grid-column: span 2;
+      grid-template-columns: subgrid;
+    }
+  
+    .sitefooter {
+    margin-top: 8rem;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    background: black;
+    color: white;
+  }
+  
+}
+
+@media only screen and (max-width: 500px) { /*iPhone Pro Max's*/
+
+    .siteheader {
+        border-radius: 1rem;
+        /*border: solid black;*/
+    }
+    .maincontent{
+        max-width: 25rem;
+        margin-bottom: 0rem;
+        border-radius: 1rem;
+        /*border: solid black;*/
+    }
+
+    .page-header {
+        margin-bottom: 0rem;
+    }
+
+    .profile {
+
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+      
+    .profile:after {
+
+        grid-column: span 1;
+
+    }
+
+    .profile__image {
+        text-align: center;
+    }
+
+    .Services {
+        margin-top: 1rem;
+        margin-bottom: 0px;
+        padding: 1rem;
+    }
+
+    @supports (grid-template-columns: subgrid){
+        .sitefooter {
+            margin-top: 0px;
+            border-radius: 1rem;
+          }
+
+    }
+}
+
+@media only screen and (max-width: 400px) { /*iPhone 12/13 mini*/
+
+    .siteheader {
+        border-radius: 1rem;
+        /*border: solid black;*/
+    }
+
+    .maincontent{
+        max-width: 25rem;
+        margin-bottom: 0rem;
+        border-radius: 1rem;
+        /*border: solid black;*/
+    }
+
+    .page-header {
+        margin-bottom: 0rem;
+    }
+
+    .profile {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+      
+    .profile:after {
+        grid-column: span 1;
+    }
+
+    .profile__image {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .Services {
+        margin-top: 1rem;
+        margin-bottom: 0px;
+        padding: 1rem;
+    }
+
+    @supports (grid-template-columns: subgrid){
+        .sitefooter {
+            margin-top: 0px;
+            border-radius: 1rem;
+            /*border: solid black;*/
+        }
+
+    }
+}
