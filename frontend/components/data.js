@@ -1,8 +1,8 @@
 import Profile from "./Profile.js";
 
 const Filippo = new Profile(
-    "Data Analysis",
     "Application Development",
+    "Business Intelligence",
     "Systems Engineering",
     "shoot me an email",
     "connect with me on LinkedIn",
