@@ -33,9 +33,9 @@ const content = profileArray.map((profile) => {
       <li class="GitHub"><a href="https://github.com/fzallocco">${
         profile.gitHub
       }</a></li>
-      <li class="daysOfActivity">${
+      <li class="daysOfActivity">site has been live for ${
         profile.daysOfActivity()
-      } days since site has been live</li>
+      } days</li>
     </ul>
     `;
 
