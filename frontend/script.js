@@ -35,7 +35,7 @@ const content = profileArray.map((profile) => {
       }</a></li>
       <li class="daysOfActivity">${
         profile.daysOfActivity()
-      } days site has been live</li>
+      } days since site has been live</li>
     </ul>
     `;
 
