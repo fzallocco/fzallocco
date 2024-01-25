@@ -7,7 +7,6 @@ const Filippo = new Profile(
     "shoot me an email",
     "connect with me on LinkedIn",
     "check out my projects on GitHub",
-    /*"August 15, 2023 12:00:00 EST",*/
     "/frontend/image/profile_pic.png"
 );
 
