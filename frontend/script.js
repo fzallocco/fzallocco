@@ -33,12 +33,12 @@ const content = profileArray.map((profile) => {
       <li class="GitHub"><a href="https://github.com/fzallocco">${
         profile.gitHub
       }</a></li>
-      <li class="daysOfActivity">${
-        profile.daysOfActivity()
-      } days since site has been live</li>
     </ul>
     `;
 
+    /*<li class="daysOfActivity">site has been up for ${
+        profile.daysOfActivity()
+      } days</li>*/
     /*newProfile.addEventListener("click", (e) => {
       e.preventDefault();//prevents page from reloading upon clicking on it
     });*/
