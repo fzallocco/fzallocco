@@ -9,3 +9,5 @@ I update this repoistory quite often, and I am currently working on adding dedic
 # 2. GitHub Stats
 
 [![Filippo's GitHub stats](https://github-readme-stats.vercel.app/api?username=fzallocco)](https://github.com/fzallocco/github-readme-stats)
+
+<iframe width="600" height="600" src="https://ionicabizau.github.io/github-profile-languages/api.html?fzallocco" frameborder="0"></iframe>
