@@ -11,3 +11,5 @@ I update this repoistory quite often, and I am currently working on adding dedic
 [![Filippo's GitHub stats](https://github-readme-stats.vercel.app/api?username=fzallocco)](https://github.com/fzallocco/github-readme-stats)
 
 [![Top used languages](https://ionicabizau.github.io/github-profile-languages/api.html?fzallocco)](https://github.com/fzallocco/github-readme-stats)
+
+[![Top used programming languages](https://github-readme-stats.vercel.app/api/top-langs?username=fzallocco&hide=html,scss,stylus,blade,jupyter%20notebook,python,css,shell,batchfile,dockerfile,typescript&theme=algolia&show_icons=true)](https://github.com/fzallocco)
