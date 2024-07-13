@@ -11,5 +11,3 @@ I update this repoistory quite often, and I am currently working on adding dedic
 [![Filippo's GitHub stats](https://github-readme-stats.vercel.app/api?username=fzallocco&theme=algolia&show_icons=true)](https://github.com/fzallocco/github-readme-stats)
 
 [![Top used programming languages](https://github-readme-stats.vercel.app/api/top-langs?username=fzallocco&hide=html,scss,stylus,blade,jupyter%20notebook,JavaScript,css,shell,batchfile,dockerfile&theme=algolia&show_icons=true)](https://github.com/fzallocco)
-
-[![Filippo's WakaTime stats](https://github-readme-stats.vercel.app/api/wakatime?username=fzallocco)](https://github.com/fzallocco/github-readme-stats)
