@@ -13,7 +13,7 @@ const content = profileArray.map((profile) => {
     <figure class="profile__image">
       <img src=${profile.image} alt="" width="300" height="300">
     </figure>
-    <h1 class="Services">skills and contact info</h1>
+    <h1 class="Services">Portfolio</h1>
     <ul class="freelancer_features">
       <li class="firstService">${
         profile.firstService
