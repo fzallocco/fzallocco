@@ -1,7 +1,7 @@
 import Profile from "./Profile.js";
 
 const Filippo = new Profile(
-    "Chest X-ray AI web app",
+    "Chest X-ray web app",
     "Inventory Management System",
     "MTA Data Visualization API",
     "shoot me an email",
