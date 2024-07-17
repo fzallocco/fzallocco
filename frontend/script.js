@@ -15,15 +15,15 @@ const content = profileArray.map((profile) => {
     </figure>
     <h1 class="Services">Portfolio</h1>
     <ul class="freelancer_features">
-      <li class="firstService">${
+      <li class="firstService"><a href="https://github.com/fzallocco/2024S-Med-X">${
         profile.firstService
-      }</li>
-      <li class="secondService">${
+      }</a></li>
+      <li class="secondService"><a href="https://github.com/fzallocco/Inventory-Management-System">${
         profile.secondService
-      }</li>
-      <li class="thirdService">${
+      }</a></li>
+      <li class="thirdService"><a href="https://github.com/fzallocco/MTA-Paratransit-Data-Analysis-Project">${
         profile.thirdService
-      }</li>
+      }</a></li>
       <li class="email"><a href="mailto:info@fzallocco.com">${
         profile.email
       }</a></li>
