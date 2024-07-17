@@ -1,9 +1,9 @@
 import Profile from "./Profile.js";
 
 const Filippo = new Profile(
-    "Application Development",
-    "Websites",
-    "AI solutions",
+    "Chest X-ray AI web app",
+    "Inventory Management System",
+    "MTA Data Visualization API",
     "shoot me an email",
     "connect with me on LinkedIn",
     "check out my projects on GitHub",
