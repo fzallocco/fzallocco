@@ -11,3 +11,21 @@ I update this repoistory quite often, and I am currently working on adding dedic
 [![Filippo's GitHub stats](https://github-readme-stats.vercel.app/api?username=fzallocco&theme=algolia&show_icons=true)](https://github.com/fzallocco/github-readme-stats)
 
 [![Top used programming languages](https://github-readme-stats.vercel.app/api/top-langs?username=fzallocco&hide=html,scss,stylus,blade,jupyter%20notebook,JavaScript,css,shell,batchfile,dockerfile&theme=algolia&show_icons=true)](https://github.com/fzallocco)
+
+<a href="https://github.com/fzallocco">
+  <img align="center" width="49%" src="./repositories.svg" alt="repositories" />
+</a>
+<a href="https://github.com/fzallocco">
+  <img align="center" width="49%" src="./activity_community_stats.svg" alt="activity, community stats" />
+</a>
+
+<a href="https://github.com/fzallocco">
+  <img align="center" width="49%" src="./isometric_calendar.svg" alt="isometric calendar" />
+</a>
+<a href="https://github.com/fzallocco">
+    <img align="center" width="49%" src="./issues_pull_requests_languages.svg" alt="issues, pull requests, languages" />
+</a>
+
+<a href="https://github.com/fzallocco">
+  <img align="center" width="49%" src="./habits.svg" alt="habits" />
+</a>

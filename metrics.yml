@@ -1,0 +1,96 @@
+# Visit https://github.com/lowlighter/metrics#-documentation for full reference
+name: Metrics
+on:
+  # Schedule updates (every 7 days)
+  schedule: [{cron: "0 0 */7 * *"}]
+  # Lines below let you run workflow manually and on each commit
+  workflow_dispatch:
+  push: {branches: ["master", "main"]}
+jobs:
+          
+  activity_community_stats:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          filename: activity_community_stats.svg
+
+          # Options
+          user: fzallocco
+          template: classic
+          base: activity, community
+          config_timezone: EST/New York
+          
+  isometric_calendar:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          filename: isometric_calendar.svg
+
+          # Options
+          user: fzallocco
+          template: classic
+          base: ""
+          config_timezone: EST/New York
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: half-year
+
+  habits:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          filename: habits.svg
+
+          # Options
+          user: fzallocco
+          template: classic
+          base: header, activity, community, repositories, metadata
+          config_timezone: EST/New York
+          plugin_habits: yes
+          plugin_habits_charts_type: chartist
+          plugin_habits_days: 14
+          plugin_habits_facts: yes
+          plugin_habits_from: 200
+          plugin_habits_languages_limit: 18
+          plugin_habits_languages_threshold: 0%
+          
+  issues_pull_requests_languages:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          filename: issues_pull_requests_languages.svg
+
+          # Options
+          user: fzallocco
+          template: classic
+          base: ""
+          config_timezone: EST/New York
+          plugin_followup: yes
+          plugin_languages: yes
+          plugin_languages_ignored: fortran, scheme, php, scss
+          
+  repositories:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          filename: repositories.svg
+
+          # Options
+          user: fzallocco
+          template: classic
+          base: repositories
+          config_timezone: EST/New York
