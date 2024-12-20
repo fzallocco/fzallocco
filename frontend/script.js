@@ -15,7 +15,7 @@ const content = profileArray.map((profile) => {
     </figure>
     <h1 class="Services">Portfolio</h1>
     <ul class="freelancer_features">
-      <li class="firstService"><a href="https://github.com/fzallocco/2024S-Med-X">${
+      <li class="firstService"><a href="https://github.com/htmw/2024S-Med-X">${
         profile.firstService
       }</a></li>
       <li class="secondService"><a href="https://github.com/fzallocco/Inventory-Management-System">${
