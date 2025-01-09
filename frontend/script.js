@@ -21,8 +21,20 @@ const content = profileArray.map((profile) => {
       <li class="secondService"><a href="https://github.com/fzallocco/Inventory-Management-System">${
         profile.secondService
       }</a></li>
-      <li class="thirdService"><a href="https://github.com/fzallocco/MTA-Paratransit-Data-Analysis-Project">${
+      <li class="thirdService"><a href="https://github.com/fzallocco/BankingSystem">${
         profile.thirdService
+      }</a></li>
+            <li class="thirdService"><a href="https://github.com/fzallocco/MTA-Paratransit-Data-Analysis-Project">${
+        profile.fourthService
+      }</a></li>
+            <li class="thirdService"><a href="https://velosaty.com/">${
+        profile.fifthService
+      }</a></li>
+            <li class="thirdService"><a href="https://github.com/fzallocco/iScalaProject">${
+        profile.sixthService
+      }</a></li>
+            <li class="thirdService"><a href="https://github.com/fzallocco/Mandel-par">${
+        profile.seventhService
       }</a></li>
       <li class="email"><a href="mailto:info@fzallocco.com">${
         profile.email

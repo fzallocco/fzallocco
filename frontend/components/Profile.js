@@ -3,6 +3,10 @@ class Profile {
       firstService,
       secondService,
       thirdService,
+      fourthService,
+      fifthService,
+      sixthService,
+      seventhService,
       email,
       linkedIn,
       gitHub,
@@ -11,6 +15,10 @@ class Profile {
       this.firstService = firstService; //assigning parameter values to constructor
       this.secondService = secondService;
       this.thirdService = thirdService;
+      this.fourthService = fourthService;
+      this.fifthService = fifthService;
+      this.sixthService = sixthService;
+      this.seventhService = seventhService;
       this.email = email;
       this.linkedIn = linkedIn;
       this.gitHub = gitHub;
