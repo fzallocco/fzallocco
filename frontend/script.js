@@ -29,13 +29,7 @@ const content = profileArray.map((profile) => {
       }</a></li>
             <li class="thirdService"><a href="https://velosaty.com/">${
         profile.fifthService
-      }</a></li>
-            <li class="thirdService"><a href="https://github.com/fzallocco/iScalaProject">${
-        profile.sixthService
-      }</a></li>
-            <li class="thirdService"><a href="https://github.com/fzallocco/Mandel-par">${
-        profile.seventhService
-      }</a></li>
+      }
       <li class="email"><a href="mailto:info@fzallocco.com">${
         profile.email
       }</a></li>
