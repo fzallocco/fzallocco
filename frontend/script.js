@@ -18,16 +18,16 @@ const content = profileArray.map((profile) => {
       <li class="firstService"><a href="https://github.com/htmw/2024S-Med-X">${
         profile.firstService
       }</a></li>
-      <li class="secondService"><a href="https://github.com/fzallocco/Inventory-Management-System">${
+      <li class="secondService"><a href="https://github.com/fzallocco/BankingSystem">${
         profile.secondService
       }</a></li>
-      <li class="thirdService"><a href="https://github.com/fzallocco/BankingSystem">${
+      <li class="thirdService"><a href="https://github.com/fzallocco/MTA-Paratransit-Data-Analysis-Project">${
         profile.thirdService
       }</a></li>
-            <li class="thirdService"><a href="https://github.com/fzallocco/MTA-Paratransit-Data-Analysis-Project">${
+            <li class="fourthService"><a href="https://velosaty.com/">${
         profile.fourthService
       }</a></li>
-            <li class="thirdService"><a href="https://velosaty.com/">${
+            <li class="fifthService"><a href="https://github.com/fzallocco/Mandel-par">${
         profile.fifthService
       }
       <li class="email"><a href="mailto:info@fzallocco.com">${
