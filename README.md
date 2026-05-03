@@ -5,9 +5,3 @@ A. You can pull the image from this repository and open it in an editor of your 
 B. You can fork the image under the branch "new_branch" and run it in your Codespaces environment with npm start
 
 I update this repoistory quite often, and I am currently working on adding dedicated pages for academic and personal projects I built in the last two years.
-
-# 2. GitHub Stats
-
-[![Filippo's GitHub stats](https://github-readme-stats.vercel.app/api?username=fzallocco&theme=algolia&show_icons=true)](https://github.com/fzallocco/github-readme-stats)
-
-[![Top used programming languages](https://github-readme-stats.vercel.app/api/top-langs?username=fzallocco&hide=html,scss,stylus,blade,jupyter%20notebook,JavaScript,css,shell,batchfile,dockerfile&theme=algolia&show_icons=true)](https://github.com/fzallocco)
